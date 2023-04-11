@@ -17,12 +17,12 @@ int main() {
     }
     cout << "The first random array of " << n << " elements:" << endl; 
     for (int i = 0; i < n; i++) {
-       first_array[i] = rand() % 20;
+       first_array[i] = rand() % 10;
        cout << first_array[i] << " ";
     }
     cout << "\n" << "The second random array of " << n << " elements:" << endl; 
     for (int i = 0; i < n; i++) {
-       second_array[i] = rand() % 20;
+       second_array[i] = rand() % 10;
        cout << second_array[i] << " ";
     }
     cout << "\n" << "The third array of common elements:"<< endl;
