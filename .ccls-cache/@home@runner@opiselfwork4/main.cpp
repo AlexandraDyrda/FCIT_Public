@@ -14,6 +14,9 @@ int main() {
     if (n > 10) {
         cout << "Try again!" << endl;
         goto AGAIN;
+    } else if (n == 10) {
+        cout << "It has to be less than 10!" << endl;
+        goto AGAIN;
     }
     cout << "The first random array of " << n << " elements:" << endl; 
     for (int i = 0; i < n; i++) {
